@@ -1,24 +1,41 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: #<a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>618 Eller O&M Building</p>
+    <p>400 Bizzell St</p>
+    <p>College Station, TX 77840</p>
 
-news: true  # includes a list of news items
+
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a first year PhD student in the [Oceanography](https://ocean.tamu.edu/) Department at Texas A&M University. I received my B.S. in civil engineering and minor in mathematics from the University of Maine in December 2019. I use numerical modeling to study coastal physical oceanography in the Gulf of Mexico as part of the [Physical Oceanography Numerical Group](https://tamu-pong.github.io).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My current research with Prof. [Rob Hetland](https://ocean.tamu.edu/people/profiles/faculty/hetlandrobert.html) focuses on quantifying coastal ocean circulation in salinity coordinates through the total exchange flow (TEF) analysis framework. We are also investigating how TEF may be used to quantify the net effects of submesoscale processes as part of the NSF [SUNRISE](https://sunrise-nsf.github.io/) project.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+As an undergraduate, I was an NSF REU scholar here at TAMU and worked on a number of coastal engineering projects at UMaine with Dr. [Kimberly Huguenard](https://civil.umaine.edu/faculty/kimberly-huguenard/). I am a big fan all things related coastal oceanography and estuarine physics.
+
+#### Research Interests
+---
+1. Physical Oceanography
+2. Coastal Ocean modeling
+3. Estuarine Physics
+
+#### Education
+---
+* PhD. in Oceanography, Texas A&M University, (Expected 2025)
+* B.S. in Civil Engineering, University of Maine, (Dec 2019)
+  * Minor in Mathematics
+
+#### Publications
+---
+Spicer, P., **Schlichting D.**, Huguenard K., Roche A, and Rickard, L. Sensing Storm Surge: A framework for establishing a citizen scientist monitored water level network. *Ocean and Coastal Management*. Under review.
