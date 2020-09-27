@@ -22,7 +22,7 @@ I am a first year PhD student in the [Oceanography](https://ocean.tamu.edu/) Dep
 
 My current research with Prof. [Rob Hetland](https://ocean.tamu.edu/people/profiles/faculty/hetlandrobert.html) focuses on quantifying coastal ocean circulation in salinity coordinates through the total exchange flow (TEF) analysis framework. We are also investigating how TEF may be used to quantify the net effects of submesoscale processes as part of the NSF [SUNRISE](https://sunrise-nsf.github.io/) project.
 
-As an undergraduate, I was an NSF REU scholar here at TAMU and worked on a number of coastal engineering projects at UMaine with Dr. [Kimberly Huguenard](https://civil.umaine.edu/faculty/kimberly-huguenard/). I am a big fan all things related coastal oceanography and estuarine physics.
+As an undergraduate, I was an NSF REU scholar here at TAMU and worked on a number of coastal engineering projects at UMaine with Dr. [Kimberly Huguenard](https://civil.umaine.edu/faculty/kimberly-huguenard/). I am a big fan all things related to coastal oceanography and estuarine physics.
 
 #### Research Interests
 ---
