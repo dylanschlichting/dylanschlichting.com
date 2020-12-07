@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a first year PhD student in the [Oceanography](https://ocean.tamu.edu/) Department at Texas A&M University. I received my B.S. in civil engineering and minor in mathematics from the University of Maine in December 2019. I use numerical modeling to study coastal physical oceanography in the Gulf of Mexico as part of the [Physical Oceanography Numerical Group](https://tamu-pong.github.io).
+I am a second year PhD student in the [Oceanography](https://ocean.tamu.edu/) Department at Texas A&M University. I received my B.S. in civil engineering and minor in mathematics from the University of Maine in December 2019. I use numerical modeling to study coastal physical oceanography in the Gulf of Mexico as part of the [Physical Oceanography Numerical Group](https://tamu-pong.github.io).
 
 My current research with Prof. [Rob Hetland](https://ocean.tamu.edu/people/profiles/faculty/hetlandrobert.html) focuses on quantifying coastal ocean circulation in salinity coordinates through the total exchange flow (TEF) analysis framework. We are also investigating how TEF may be used to quantify the net effects of submesoscale processes as part of the NSF [SUNRISE](https://sunrise-nsf.github.io/) project.
 
@@ -38,4 +38,4 @@ As an undergraduate, I was an NSF REU scholar here at TAMU and worked on a numbe
 
 #### Publications
 ---
-Spicer, P., **Schlichting D.**, Huguenard K., Roche A, and Rickard, L. Sensing Storm Surge: A framework for establishing a citizen scientist monitored water level network. *Ocean and Coastal Management*. Under review.
+Spicer, P., **Schlichting D.**, Huguenard K., Roche. A., and Rickard, L. Sensing Storm Surge: A framework for establishing a citizen scientist monitored water level network. *Ocean and Coastal Management*. Under review.
