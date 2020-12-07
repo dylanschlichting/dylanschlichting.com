@@ -24,6 +24,7 @@ My current research with Prof. [Rob Hetland](https://ocean.tamu.edu/people/profi
 
 As an undergraduate, I was an NSF REU scholar here at TAMU and worked on a number of coastal engineering projects at UMaine with Dr. [Kimberly Huguenard](https://civil.umaine.edu/faculty/kimberly-huguenard/). I am a big fan all things related to coastal oceanography and estuarine physics.
 
+Here is a link to my <a href='/_pages/CV.pdf' class='image fit'> CV</a>:
 #### Research Interests
 ---
 1. Physical Oceanography
@@ -38,4 +39,4 @@ As an undergraduate, I was an NSF REU scholar here at TAMU and worked on a numbe
 
 #### Publications
 ---
-Spicer, P., **Schlichting D.**, Huguenard K., Roche. A., and Rickard, L. Sensing Storm Surge: A framework for establishing a citizen scientist monitored water level network. *Ocean and Coastal Management*. Under review.
+Spicer, P., **Schlichting, D.**, Huguenard K., Roche, A., and Rickard, L. Sensing Storm Surge: A framework for establishing a citizen scientist monitored water level network. *Ocean and Coastal Management*. Under review.
