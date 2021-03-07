@@ -8,18 +8,19 @@ nav: true
 Most of my active projects are part of the NSF-NERC SUNRISE project, which aims to create a unified dynamical description of near-inertial motions, submesoscale processes, and their role on turbulent mixing.
 
 
-### Total Exchange Flow in the Gulf of Mexico
+### Total Exchange Flow (TEF) in the Northern Gulf of Mexico
 ---
-![tef](tef.png)
+![tef](tef_highres.png)
 
-We are actively developing a framework called Total Exchange Flow (TEF), which seeks to quantify ocean circulation in salinity coordinates. TEF was proposed by Parker MacCready for quantifying estuarine mixing in a seminal 2011 JPO paper. Using the divergence theorem, we are using TEF to quantify submesoscale mixing processes over the Texas-Louisiana Shelf. Pictured above is a histogram of a volumetric transport from TXLA model output in salinity coordinates. Just from this one picture you can see so how important transient forcing from the river plume is!
+TEF was originally developed by Parker MacCready for looking at tracer fluxes and mixing for estuaries. TEF involves taking a control volume or transect, and binning corresponding tracer fluxes in a coordinate of your choosing. We use salinity coordinates for the Gulf because density differences are driven almost entirely by salinity. The top picture shows outputs from a nested grid of surface salinity from the TXLA model, with a control volume for TEF shown in the red box. The bottom picture shows the net volume and salinity variance transport  into and out of the box. You can see the strong inertial signal and these high-resolution filaments that develop. We hope to use TEF to quantify the different scales of mixing that occur over the TXLA shelf. 
 
 ### Copano Bay Salinity Structure
 ---
-As an REU student, I worked on characterizing the bulk salinity structure of Copano Bay, an inverse estuary on the Gulf Coast. The inverse circulation causes some interesting dynamics to occur. For example, plotting the normalized salinity difference versus the salinity gradient at the estuary mouth reveals just how weird the salinity structure is. this project is currently being worked on by [Tianxiang Gao](https://ocean.tamu.edu/people/profiles/students/gaotianxiang.html).
 ![copano](Copano.png)
+As an REU student, I worked on characterizing the bulk salinity structure of Copano Bay, an inverse estuary on the Gulf Coast. The inverse circulation causes some interesting dynamics to occur. For example, plotting the normalized salinity difference versus the salinity gradient at the estuary mouth reveals just how weird the salinity structure is. this project is currently being worked on by [Tianxiang Gao](https://ocean.tamu.edu/people/profiles/students/gaotianxiang.html).
 
 ### Estuarine Storm Surge
 ---
-During my undergrad, I worked on the Sensing Storm Surge Project, which investigated storm surge in several Maine estuaries using a citizen science network. I helped set up and maintain the citizen science network. Below is a plot of the the observed surge in two estuaries, one of which demonstrates the effects of convergence on surge height. 
-![surge](surge.png)
+![fieldwork](sss_combined.png) 
+During my undergrad, I worked on the Sensing Storm Surge Project, which investigated storm surge in several Maine estuaries. I helped set up and maintain the citizen science network. The first picture is me prepping a mooring in Bass Harbor. The next figure is taken from our manuscript that shows observed surge in two estuaries, which demonstrates the effects of convergence on surge height. 
+
