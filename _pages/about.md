@@ -39,4 +39,4 @@ Here is a link to my <a href='/_pages/CV.pdf' class='image fit'> CV</a>:
 
 #### Publications
 ---
-Spicer, P., **Schlichting, D.**, Huguenard, K., Roche, A., and Rickard, L. Sensing Storm Surge: A framework for establishing a citizen scientist monitored water level network. *Ocean and Coastal Management*. Under review [submitted July 31, 2020].
+Spicer, P., **Schlichting, D.**, Huguenard, K., Roche, A., and Rickard, L. Sensing Storm Surge: A framework for establishing a citizen scientist monitored water level network. *Ocean and Coastal Management*. In revision.
