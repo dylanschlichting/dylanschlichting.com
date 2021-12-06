@@ -5,6 +5,7 @@ title: presentations
 description:
 nav: true
 ---
+7. **Schlichting, D.**, Hetland, R., Qu, L., and Kobashi, D. (2021). Using tracer variance budgets to quantify numerical mixing offline in a coastal ocean model. Warnemunde Turbulence Days, December 6-9. Talk. 
 6. **Schlichting***, D., and Hetland, R. (2021). Using total exchange flow to characterize submesoscale processes in the northern Gulf of Mexico. Poster and talk. <a href='/_pages/603_poster.pdf' class='image fit'> Download poster PDF.</a> <a href='/_pages/603_talk.pdf' class='image fit'> Download talk PDF</a>
 
 5. **Schlichting**, D., Lieberthal, B., and Huguenard, K. (2019). An assessment into vegetation farms as a solution to coastal erosion in southern Maine. Northeast Aquaculture Conference, Boston MA. January 9-11. Poster. <a href='/_pages/NACE.pdf' class='image fit'> Download PDF</a>
