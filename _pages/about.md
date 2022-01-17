@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a second year PhD student in the [Oceanography](https://ocean.tamu.edu/) Department at Texas A&M University. I received my B.S. in civil engineering and minor in mathematics from the University of Maine in December 2019. I use numerical modeling to study coastal ocean circulation in the Gulf of Mexico as part of the [Physical Oceanography Numerical Group](https://tamu-pong.github.io).
+I am a third year PhD student in the [Oceanography](https://ocean.tamu.edu/) Department at Texas A&M University. I received my B.S. in civil engineering and minor in mathematics from the University of Maine in December 2019. I use numerical modeling to study coastal ocean circulation in the Gulf of Mexico as part of the [Physical Oceanography Numerical Group](https://tamu-pong.github.io).
 
 As an undergraduate, I was an NSF REU scholar here at TAMU and worked on a number of coastal engineering projects at UMaine with Dr. [Kimberly Huguenard](https://civil.umaine.edu/faculty/kimberly-huguenard/). We recently had a paper accepted that discusses the Sensing Storm Surge project, which established a citizen science program to monitor storm surge in several Maine estuaries and rivers. I am a big fan all things related to coastal oceanography and estuarine physics.
 
