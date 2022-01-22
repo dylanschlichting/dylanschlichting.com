@@ -11,10 +11,9 @@ My research uses numerical simulations to characterize the dynamics of estuarine
   <summary> <font size="+2" > High resolution ocean modeling </font>  </summary>
   <img src = "../_pages/domain_whole.jpg" alt="domain_whole"> <br>
 
-  The TXLA model domain covers the entire continental slope and is mainly used for investigations of shelf processes, which are heavily influenced by discharge from the Mississippi and Atchafalaya rivers. We are using a high resolution nested implementation of the TXLA model developed by <a href="https://www.researchgate.net/profile/Daijiro-Kobashi">Daijiro Kobashi</a> to study submesoscale processes, which are small scale processes that are characterized by strong currents, large vertical motions, and elevated mixing. The image below shows plots of the surface salinity and normalized vorticity fields. As youy can see, the nested grid does not differ that much from the native grid in terms of salinity, but the voriticty field resolves an entire swath of new processes! <br>
+  The TXLA model domain covers the entire continental slope and is mainly used for investigations of shelf processes, which are heavily influenced by discharge from the Mississippi and Atchafalaya rivers. We are using a high resolution nested implementation of the TXLA model developed by <a href="https://www.researchgate.net/profile/Daijiro-Kobashi">Daijiro Kobashi</a> to study submesoscale processes, which are small scale processes that are characterized by strong currents, large vertical motions, and elevated mixing. The image below shows plots of the surface salinity and normalized vorticity fields. As you can see, the nested grid does not differ that much from the native grid in terms of salinity, but the vorticity field resolves an entire swath of new processes! <br>
   <img src = "../_pages/model_domain.jpg" alt="domain">
 </details>
-
 <!-- <details>
 <summary> <font size="+3" > Quantifying numerical mixing the in the TXLA model </font>  </summary>
   <!-- <img src = "../_pages/model_domain.jpg" alt="domain"> -->
