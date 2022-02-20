@@ -5,7 +5,9 @@ title: presentations
 description:
 nav: true
 ---
-7. **Schlichting, D.**, Hetland, R., Qu, L., and Kobashi, D. (2021). Using tracer variance budgets to quantify numerical mixing offline in a coastal ocean model. Warnemunde Turbulence Days, December 6-9. Talk. 
+8. **Schlichting, D.**, Qu, L., Hetland, R., and Kobashi, D. (2022). Using salinity variance budgets to quantify numerical mixing in a coastal ocean model. Ocean Sciences Meeting, February 24-March 4. Talk.  
+
+7. **Schlichting, D.**, Hetland, R., Qu, L., and Kobashi, D. (2021). Using tracer variance budgets to quantify numerical mixing offline in a coastal ocean model. Warnemunde Turbulence Days, December 6-9. Talk.
 
 6. **Schlichting***, D., and Hetland, R. (2021). Using total exchange flow to characterize submesoscale processes in the northern Gulf of Mexico. Poster and talk. <a href='/_pages/603_poster.pdf' class='image fit'> Download poster PDF.</a> <a href='/_pages/603_talk.pdf' class='image fit'> Download talk PDF</a>
 
