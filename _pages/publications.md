@@ -11,4 +11,4 @@ nav: true
 
 #### Manuscripts in Preparation
 2. **Schlichting, D.**, Qu, L., Hetland, R., and Kobashi, D. Using salinity variance budgets to
-quantify numerical mixing in a coastal ocean modelu, L., **Schlichting, D.**, and Hetland, R.
+quantify numerical mixing in a coastal ocean model. 
