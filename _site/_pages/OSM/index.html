@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Dylan R. Schlichting | Dylan R. Schlichting B.S. - page 2</title>
+<title>Dylan R. Schlichting</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/page/2/">
+<link rel="canonical" href="/_pages/OSM/">
 
     
 <!-- MathJax -->
@@ -71,7 +71,7 @@
           </li>
           <!-- 
           <!-- Blog -->
-          <!-- <li class="nav-item active"> -->
+          <!-- <li class="nav-item "> -->
             <!-- <a class="nav-link" href="/blog/"> -->
               <!-- blog -->
               <!--  -->
@@ -144,54 +144,34 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>al-folio</h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+    <p class="post-description"></p>
+  </header>
 
+  <article>
+    <!-- ---
+layout: page
+title: ocean sciences meeting
+permalink: /Ocean Sciences/
+description:
+nav: true
+---
+This page contains supplemental material for my 2022 Ocean Sciences Presentation. A copy of the slides may be found <a href='/_pages/osm_slides.pdf' class='image fit'> here</a>. If you're interested in the math used to derive the equations for salt squared $$s^2$$, salt anomaly squared $$s^{\prime^2}$$, and their differences, check out <a href='/_pages/numerical_mixing_differences.pdf' class='image fit'> this document</a>.
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2015/code/">a post with code</a></h3>
-        <p class="post-meta">July 15, 2015</p>
-        <p>an example of a blog post with some code</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2015/images/">a post with images</a></h3>
-        <p class="post-meta">May 15, 2015</p>
-        <p>this is what included images could look like</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2015/formatting-and-links/">a post with formatting and links</a></h3>
-        <p class="post-meta">March 15, 2015</p>
-        <p>march & april, looking forward to summer</p>
-      </li>
-    
-  </ul>
+Both budgets may be used to quantify the bulk physical mixing within a control volume, defined as the destruction of salinity variance $$\chi$$. Recent work by MacCready et al. (2018, JPO) and Burchard et al. (2019, JPO) suggests that the numerical mixing can be quantified as the residual of each budget, however since they are different equations they will yield different estimates of numerical mixing when calculated offline. The second document walks through the accompanying math in detail. The $$s^{\prime^2}$$ approach is often defined as the salinity variance and gives a closer representation of the true numerical mixing created by the advection scheme (we use MPDATA), however the $$s^2$$ budget is easier to apply to observations and model output because the salinity isn't referenced to an averaged value (often the volume average). If you calculate the numerical mixing online, this is not an issue.
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item ">
-      <a class="page-link" href="/blog/" tabindex="-1" aria-disabled="1">Newer</a>
-    </li>
-    
-      
-        <li class="page-item "><a class="page-link" href="/blog/index.html" title="Dylan R. Schlichting B.S.">1</a></li>
-      
-        <li class="page-item active"><a class="page-link" href="/blog/page/2/index.html" title="Dylan R. Schlichting B.S. - page 2">2</a></li>
-      
-    
-    <li class="page-item disabled">
-      <a class="page-link" href="">Older</a>
-    </li>
-  </ul>
-</nav>
+The key equation that describes the numerical mixing from the $$s^2$$ budget in terms of $$s^{\prime^2}$$ is:
+$$
+\begin{equation}
+M_{num, s^2} = -\frac{d \overline{s}^2}{d t} V   - 2\overline{s} \iiint_V \frac{\partial s^\prime}{\partial t} \, dV - \overline{s}^2 \iint_A \textbf{u} \cdot \, d\textbf{A} -
+    2 \overline{s} \iint_A (\textbf{u}s^{\prime}) \cdot \, d\textbf{A}  +\\
+    \iint_A (2\overline{s}^2+2 \overline{s} s^\prime)(E-P) \, dA - M_{num, s^{\prime^2}},
+\end{equation}
+$$
+so we can see that there a number of extra terms that must be considered to properly compare the numerical mixing estimates. -->
 
-
+  </article>
 
 </div>
 

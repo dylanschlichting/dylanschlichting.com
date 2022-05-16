@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Dylan R. Schlichting | ocean sciences meeting</title>
+<title>Dylan R. Schlichting | publications</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/Ocean%20Sciences/">
+<link rel="canonical" href="/publications/">
 
     
 <!-- MathJax -->
@@ -94,15 +94,6 @@
           
           
           
-          <li class="nav-item active">
-              <a class="nav-link" href="/Ocean%20Sciences/">
-                ocean sciences meeting
-                
-                <span class="sr-only">(current)</span>
-                
-              </a>
-          </li>
-          
           
           
           <li class="nav-item ">
@@ -123,9 +114,22 @@
           
           
           
-          <li class="nav-item ">
+          <li class="nav-item active">
               <a class="nav-link" href="/publications/">
                 publications
+                
+                <span class="sr-only">(current)</span>
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item active">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -145,22 +149,17 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">ocean sciences meeting</h1>
+    <h1 class="post-title">publications</h1>
     <p class="post-description"></p>
   </header>
 
   <article>
-    <p>This page contains supplemental material for my 2022 Ocean Sciences Presentation. A copy of the slides may be found <a href="/_pages/osm_slides.pdf" class="image fit"> here</a>. If you’re interested in the math used to derive the equations for salt squared \(s^2\), salt anomaly squared \(s^{\prime^2}\), and their differences, check out <a href="/_pages/numerical_mixing_differences.pdf" class="image fit"> this document</a>.</p>
+    2. Qu, L., Hetland, R., and **Schlichting, D.** Tracer variance mixing in simple box models
+1. Spicer, P., **Schlichting, D.**, Huguenard, K., Roche, A., and Rickard, L., 2021. Sensing Storm Surge: A framework for establishing a citizen scientist monitored water level network. *Ocean and Coastal Management*, 211, 105802. [https://doi.org/10.1016/j.ocecoaman.2021.105802](https://doi.org/10.1016/j.ocecoaman.2021.105802).
 
-<p>Both budgets may be used to quantify the bulk physical mixing within a control volume, defined as the destruction of salinity variance \(\chi\). Recent work by MacCready et al. (2018, JPO) and Burchard et al. (2019, JPO) suggests that the numerical mixing can be quantified as the residual of each budget, however since they are different equations they will yield different estimates of numerical mixing when calculated offline. The second document walks through the accompanying math in detail. The \(s^{\prime^2}\) approach is often defined as the salinity variance and gives a closer representation of the true numerical mixing created by the advection scheme (we use MPDATA), however the \(s^2\) budget is easier to apply to observations and model output because the salinity isn’t referenced to an averaged value (often the volume average). If you calculate the numerical mixing online, this is not an issue.</p>
-
-<p>The key equation that describes the numerical mixing from the \(s^2\) budget in terms of \(s^{\prime^2}\) is:
-\(\begin{equation}
-M_{num, s^2} = -\frac{d \overline{s}^2}{d t} V   - 2\overline{s} \iiint_V \frac{\partial s^\prime}{\partial t} \, dV - \overline{s}^2 \iint_A \textbf{u} \cdot \, d\textbf{A} -
-    2 \overline{s} \iint_A (\textbf{u}s^{\prime}) \cdot \, d\textbf{A}  +\\
-    \iint_A (2\overline{s}^2+2 \overline{s} s^\prime)(E-P) \, dA - M_{num, s^{\prime^2}},
-\end{equation}\)
-so we can see that there a number of extra terms that must be considered to properly compare the numerical mixing estimates.</p>
+#### Manuscripts in Preparation
+2. **Schlichting, D.**, Qu, L., Hetland, R., and Kobashi, D. Using salinity variance budgets to
+quantify numerical mixing in a coastal ocean modelu, L., **Schlichting, D.**, and Hetland, R.
 
   </article>
 
@@ -177,7 +176,7 @@ so we can see that there a number of extra terms that must be considered to prop
     Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
     
-    Last updated: February 20, 2022.
+    Last updated: May 15, 2022.
     
   </div>
 </footer>
