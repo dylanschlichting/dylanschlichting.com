@@ -5,6 +5,8 @@ title: presentations
 description:
 nav: true
 ---
+9. **Schlichting, D.**, Qu, L., Hetland, R., and Kobashi, D. (2022). Quantification of physical and numerical mixing using tracer variance dissipation in a coastal ocean model. Gordon Research Seminar/Conference on Ocean Mixing, June 4-10. Poster. <a href='/_pages/Schlichting_GRC_2022_Poster.pdf' class='image fit'> Download PDF</a>
+
 8. **Schlichting, D.**, Qu, L., Hetland, R., and Kobashi, D. (2022). Using salinity variance budgets to quantify numerical mixing in a coastal ocean model. Ocean Sciences Meeting, February 24-March 4. Talk.  
 
 7. **Schlichting, D.**, Hetland, R., Qu, L., and Kobashi, D. (2021). Using tracer variance budgets to quantify numerical mixing offline in a coastal ocean model. Warnemunde Turbulence Days, December 6-9. Talk.
