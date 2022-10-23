@@ -5,15 +5,25 @@ permalink: /projects/
 description:
 nav: true
 ---
-My research uses numerical simulations to characterize the dynamics of estuarine and coastal flows. There are two major projects I am working on right now: quantifying a special type of mixing in ocean models called numerical mixing, which arises from solving the momentum and tracer equations on a discrete grid, and expanding an analysis framework for analyzing tracer fluxes and mixing called total exchange flow (TEF) to the coastal ocean. I use the Regional Ocean Modeling System (ROMS) for my simulations, which has been a favorite tool in the modeling community for over 20 years. I am also associated with the NSF-NERC SUNRISE project, which aims to create a unified dynamical description of near-inertial motions, submesoscale processes, and their impacts on turbulent mixing.
+My research uses numerical simulations to characterize the dynamics of estuarine and coastal flows. I am working on several projects right now: quantifying a special type of mixing in ocean models called numerical mixing, which arises from solving the momentum and tracer equations on a discrete grid, and expanding an analysis framework for analyzing tracer fluxes and mixing called total exchange flow (TEF) to the coastal ocean. I use the Regional Ocean Modeling System (ROMS) for my simulations, which has been a favorite tool in the modeling community for over 20 years. I am also associated with the NSF-NERC SUNRISE project, which aims to create a unified dynamical description of near-inertial motions, submesoscale processes, and their impacts on turbulent mixing.
 
 <details>
-  <summary> <font size="+2" > High resolution ocean modeling </font>  </summary>
-  <img src = "../_pages/domain_whole.jpg" alt="domain_whole"> <br>
+  <summary> <font size="+2" > High resolution ocean modeling in the northern Gulf of Mexico </font>  </summary>
+  <img src = "../_pages/domain_overview.jpg" alt="domain_whole"> <br>
 
-  The TXLA model domain covers the entire continental slope and is mainly used for investigations of shelf processes, which are heavily influenced by discharge from the Mississippi and Atchafalaya rivers. We are using a high resolution nested implementation of the TXLA model developed by <a href="https://www.researchgate.net/profile/Daijiro-Kobashi">Daijiro Kobashi</a> to study submesoscale processes, which are small scale processes that are characterized by strong currents, large vertical motions, and elevated mixing. The image below shows plots of the surface salinity and normalized vorticity fields. As you can see, the nested grid does not differ that much from the native grid in terms of salinity, but the vorticity field resolves an entire swath of new processes! <br>
-  <img src = "../_pages/model_domain.jpg" alt="domain">
+  The TXLA model domain covers the entire continental slope and is mainly used for investigations of shelf processes, which are heavily influenced by discharge from the Mississippi and Atchafalaya rivers. We are using a high resolution nested implementation of the TXLA model developed by <a href="https://www.researchgate.net/profile/Daijiro-Kobashi">Daijiro Kobashi</a> to study submesoscale processes, which are small scale processes that are characterized by strong currents, large vertical motions, and elevated mixing. The image below shows plots of the surface salinity, horizontal salinity gradient magnitude, normalized vorticity, divergence, and strain. The second quantity measures how fast the salinity changes in the horizontal, whereas the latter three properties are all measurements of different ways to fluid velocity changes in space.  <br>
+  <img src = "../_pages/surface_comparison.png" alt="surface_comparison"> <br>
 </details>
+
+<details>
+  <summary> <font size="+2" > High-resolution idealized modeling </font>  </summary>
+  <video width="640" height="480" controls>
+    <source src="../_pages/surface_shelf_dx_1000_MPDATA_nowind.mp4" type="video/mp4">
+  </video>
+  <br>
+    The simulation shown above is a modified version of the base case described in Hetland (2017) <em>Journal of Physical Oceanography</em>. The model is used to explore the formation of baroclinic instabilities over a sloping bottom in an idealized framework and is based off the dynamical conditions observed over the TXLA shelf. More broadly, baroclinic instabilities are a type of fluid instability that act as a primary generation mechanism for mesoscale eddies in the ocean and shapes the formation of cyclones and anticylones in the atmosphere. The above video shows an unforced, stratified coastal shelf that grows baroclinically unstable, leading to the development of numerous eddies. This is seen in not only the salinity field, but the vertical relative vorticity, which provides an estimation of the fluid's rotation about the vertical axis. These eddies have strong salinity gradients, which correspond to areas where the salinity changes rapidly in space. These sharp gradients are hard for models to resolve, and generate spurious numerical mixing. I am using the idealized model to understand how numerical mixing impacts the salinity field, with the goal of applying the knowledge gained to the TXLA model.
+</details>   
+
 <details>
   <summary> <font size="+2" > Total Exchange Flow (TEF) in the coastal ocean </font>  </summary>
   <img src = "../_pages/tef_ts.png" alt="TEF"> <br>

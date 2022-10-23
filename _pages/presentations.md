@@ -7,11 +7,11 @@ nav: true
 ---
 9. **Schlichting, D.**, Qu, L., Hetland, R., and Kobashi, D. (2022). Quantification of physical and numerical mixing using tracer variance dissipation in a coastal ocean model. Gordon Research Seminar/Conference on Ocean Mixing, June 4-10. Poster. <a href='/_pages/Schlichting_GRC_2022_Poster.pdf' class='image fit'> Download PDF</a>
 
-8. **Schlichting, D.**, Qu, L., Hetland, R., and Kobashi, D. (2022). Using salinity variance budgets to quantify numerical mixing in a coastal ocean model. Ocean Sciences Meeting, February 24-March 4. Talk.  
+8. Hetland, R., Qu, L., and **Schlichting, D.** (2022). Tracer variance mixing in simple box models. Ocean Sciences Meeting, February 24-March 4. Talk.  
 
-7. **Schlichting, D.**, Hetland, R., Qu, L., and Kobashi, D. (2021). Using tracer variance budgets to quantify numerical mixing offline in a coastal ocean model. Warnemunde Turbulence Days, December 6-9. Talk.
+7. **Schlichting, D.**, Qu, L., Hetland, R., and Kobashi, D. (2022). Using salinity variance budgets to quantify numerical mixing in a coastal ocean model. Ocean Sciences Meeting, February 24-March 4. Talk.  
 
-6. **Schlichting***, D., and Hetland, R. (2021). Using total exchange flow to characterize submesoscale processes in the northern Gulf of Mexico. Poster and talk. <a href='/_pages/603_poster.pdf' class='image fit'> Download poster PDF.</a> <a href='/_pages/603_talk.pdf' class='image fit'> Download talk PDF</a>
+6. **Schlichting, D.**, Hetland, R., Qu, L., and Kobashi, D. (2021). Using tracer variance budgets to quantify numerical mixing offline in a coastal ocean model. Warnemunde Turbulence Days, December 6-9. Talk.
 
 5. **Schlichting**, D., Lieberthal, B., and Huguenard, K. (2019). An assessment into vegetation farms as a solution to coastal erosion in southern Maine. Northeast Aquaculture Conference, Boston MA. January 9-11. Poster. <a href='/_pages/NACE.pdf' class='image fit'> Download PDF</a>
 
@@ -23,5 +23,3 @@ nav: true
 
 1. **Schlichting**, D., Lieberthal, B., and Huguenard, K. (2017). Vegetation farms as a solution to coastal erosion for Saco, Maine. Sustainable Ecological Aquaculture Network Undergraduate Research Symposium, Walpole ME. August 16. Poster. <a href='/_pages/SEANET_2017.pdf' class='image fit'> Download PDF</a>
 {: reversed="reversed"}
-
-*: This was part of a series of presentations for a graduate class on communicating ocean science to the general public. So this serves as an excellent introduction to my research to a general oceanographic audience.
