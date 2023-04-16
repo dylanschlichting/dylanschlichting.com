@@ -5,14 +5,17 @@ permalink: /projects/
 description:
 nav: true
 ---
-My research uses numerical simulations to characterize the dynamics of estuarine and coastal flows. I am working on several projects right now: quantifying a special type of mixing in ocean models called numerical mixing, which arises from solving the momentum and tracer equations on a discrete grid, and expanding an analysis framework for analyzing tracer fluxes and mixing called total exchange flow (TEF) to the coastal ocean. I use the Regional Ocean Modeling System (ROMS) for my simulations, which has been a favorite tool in the modeling community for over 20 years. I am also associated with the NSF-NERC SUNRISE project, which aims to create a unified dynamical description of near-inertial motions, submesoscale processes, and their impacts on turbulent mixing.
+My research uses numerical simulations to characterize the dynamics of estuarine and coastal flows. My PhD dissertation focuses on quantifying numerical mixing in realistic and idealized simulations of the Texas-Louisiana continental shelf in the northern Gulf of Mexico. Numerical mixing is a type of numerical error found in ocean models due to the discretization of tracer transport by currents. Much work has been done to understand numerical mixing in idealized simulations, but less so in realistic models. I use the Regional Ocean Modeling System (ROMS) for my simulations, which has been a favorite tool in the estuarine and coastal ocean modeling community for over 20 years. I am also associated with the NSF-NERC SUNRISE project, which aims to create a unified dynamical description of near-inertial motions, submesoscale processes, and their impacts on turbulent mixing.
 
 <details>
-  <summary> <font size="+2" > High resolution ocean modeling in the northern Gulf of Mexico </font>  </summary>
-  <img src = "../_pages/domain_overview.jpg" alt="domain_whole"> <br>
+  <summary> <font size="+2" > High-resolution modeling of the Texas-Louisiana shelf </font>  </summary>
+  <video width="640" height="480" controls>
+    <source src="../_pages/TXLA_model_comparison.mp4" type="video/mp4">
+  </video>
+  <br>
+  The TXLA model covers the entire continental slope and is mainly used for investigations of shelf processes, which are heavily influenced by discharge from the Mississippi and Atchafalaya rivers. We are using a high resolution nested implementation of the TXLA model developed by <a href="https://www.researchgate.net/profile/Daijiro-Kobashi">Daijiro Kobashi</a> to study submesoscale processes. The movie above shows plots of the native TXLA model in the left column and a nested version on the right of surface salinity (top), horizontal salinity gradient magnitude (middle), and normalized vorticity (bottom). The salinity gradient magnitude can be used to infer information about numerical mixing, with larger gradients corresponding to larger numerical mixing (Schlichting et al., 2023). The relative vorticity provides an estimate of the flow's rotation about the vertical axis, allowing us to study how these frontal eddies evolve in time. The nested model has five times the horizontal resolution of the coarse model, which is indicated by the black box in the figure. 
+ <br>
 
-  The TXLA model domain covers the entire continental slope and is mainly used for investigations of shelf processes, which are heavily influenced by discharge from the Mississippi and Atchafalaya rivers. We are using a high resolution nested implementation of the TXLA model developed by <a href="https://www.researchgate.net/profile/Daijiro-Kobashi">Daijiro Kobashi</a> to study submesoscale processes, which are small scale processes that are characterized by strong currents, large vertical motions, and elevated mixing. The image below shows plots of the surface salinity, horizontal salinity gradient magnitude, normalized vorticity, divergence, and strain. The second quantity measures how fast the salinity changes in the horizontal, whereas the latter three properties are all measurements of different ways to fluid velocity changes in space.  <br>
-  <img src = "../_pages/surface_comparison.png" alt="surface_comparison"> <br>
 </details>
 
 <details>
