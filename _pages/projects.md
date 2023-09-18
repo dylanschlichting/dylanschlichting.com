@@ -5,49 +5,24 @@ permalink: /projects/
 description:
 nav: true
 ---
-My research uses numerical simulations to characterize the dynamics of estuarine and coastal flows. My PhD dissertation focuses on quantifying numerical mixing in realistic and idealized simulations of the Texas-Louisiana continental shelf in the northern Gulf of Mexico. Numerical mixing is a type of numerical error found in ocean models due to the discretization of tracer transport by currents. Much work has been done to understand numerical mixing in idealized simulations, but less so in realistic models. I use the Regional Ocean Modeling System (ROMS) for my simulations, which has been a favorite tool in the estuarine and coastal ocean modeling community for over 20 years. I am also associated with the NSF-NERC SUNRISE project, which aims to create a unified dynamical description of near-inertial motions, submesoscale processes, and their impacts on turbulent mixing.
+I use Regional Ocean Modeling System ([ROMS](https://www.myroms.org/)) as part of the Coupled-Ocean-Atmosphere-Wave-Sediment Transport model ([COAWST](https://www.usgs.gov/centers/whcmsc/science/coawst-a-coupled-ocean-atmosphere-wave-sediment-transport-modeling-system)) to make numerical simulations of the coastal ocean. ROMS has been a primary tool of the estuarine and coastal modeling community since the 1990s. Check out some of my projects below. The first two project images are links to animations, hosted on youtube.
 
-<details>
-  <summary> <font size="+2" > High-resolution modeling of the Texas-Louisiana shelf </font>  </summary>
-  <video width="640" height="480" controls>
-    <source src="../_pages/TXLA_model_comparison.mp4" type="video/mp4">
-  </video>
-  <br>
-  The TXLA model covers the entire continental slope and is mainly used for investigations of shelf processes, which are heavily influenced by discharge from the Mississippi and Atchafalaya rivers. We are using a high resolution nested implementation of the TXLA model developed by <a href="https://www.researchgate.net/profile/Daijiro-Kobashi">Daijiro Kobashi</a> to study submesoscale processes. The movie above shows plots of the native TXLA model in the left column and a nested version on the right of surface salinity (top), horizontal salinity gradient magnitude (middle), and normalized vorticity (bottom). The salinity gradient magnitude can be used to infer information about numerical mixing, with larger gradients corresponding to larger numerical mixing (Schlichting et al., 2023). The relative vorticity provides an estimate of the flow's rotation about the vertical axis, allowing us to study how these frontal eddies evolve in time. The nested model has five times the horizontal resolution of the coarse model, which is indicated by the black box in the figure. 
- <br>
+### High-resolution modeling of the Texas-Louisiana shelf
+[![Here](txla_mnum_surf_1011.jpg)](https://www.youtube.com/watch?v=ZLfN9I5l6tw)
+The TXLA model domain covers much of the northern Gulf of Mexico out to the outer continental slope. The current version of the model was developed by Dr. <a href="https://www.researchgate.net/profile/Daijiro-Kobashi">Daijiro Kobashi</a> to study submesoscale processes in the upper ocean as part of SUNRISE. The animation shows a two-way nested simulation, where inside the black box the horizontal resolution is increased by a factor of five. Two-way nesting means that the coarse (parent) and fine (child) grids are allowed to exchange information across the open boundary.
 
-</details>
+ During summer, the regional diurnal land-sea breeze interacts with freshwater forcing from the Mississippi and Atchafalaya Rivers. These interactions cause a rich submesoscale eddy field with strong inertial currents to develop. This can be seen in plots of the surface relative vorticity $$(\partial_x v - \partial_y u) / f$$), as shown in subplot (a). Here, subscripts denote partial differentiation. These eddies have sharp, energetic fronts, which are marked by positive (red) values. The fronts have strong lateral salinity gradients ($$|\nabla_h s|$$) as shown in subplot (b). Subplot (c) shows a normalized version of the frontogenesis function (Hoskins, 1982), which tells us whether those salinity gradients are being sharpened by frontogenesis or destroyed by frontolysis.
 
-<details>
-  <summary> <font size="+2" > High-resolution idealized modeling </font>  </summary>
-  <video width="640" height="480" controls>
-    <source src="../_pages/surface_shelf_dx_1000_MPDATA_nowind.mp4" type="video/mp4">
-  </video>
-  <br>
-    The simulation shown above is a modified version of the base case described in Hetland (2017) <em>Journal of Physical Oceanography</em>. The model is used to explore the formation of baroclinic instabilities over a sloping bottom in an idealized framework and is based off the dynamical conditions observed over the TXLA shelf. More broadly, baroclinic instabilities are a type of fluid instability that act as a primary generation mechanism for mesoscale eddies in the ocean and shapes the formation of cyclones and anticylones in the atmosphere. The above video shows an unforced, stratified coastal shelf that grows baroclinically unstable, leading to the development of numerous eddies. This is seen in not only the salinity field, but the vertical relative vorticity, which provides an estimation of the fluid's rotation about the vertical axis. These eddies have strong salinity gradients, which correspond to areas where the salinity changes rapidly in space. These sharp gradients are hard for models to resolve, and generate spurious numerical mixing. I am using the idealized model to understand how numerical mixing impacts the salinity field, with the goal of applying the knowledge gained to the TXLA model.
-</details>   
+The fronts are thought to be hotspots for numerical mixing, a type of spurious (i.e., numerically-induced) mixing that can degrade the accuracy of numerical models. This is because the model must discretize very large changes in salinity over a small distances, which can decrease the fidelity of a numerical solver. The video shows that numerical mixing (subplot (d)) can greatly exceed the mixing based on physical conservation laws (subplot (e)) at shallow depths.
 
-<details>
-  <summary> <font size="+2" > Total Exchange Flow (TEF) in the coastal ocean </font>  </summary>
-  <img src = "../_pages/tef_ts.png" alt="TEF"> <br>
+### Numerical mixing in an idealized coastal shelf model
+[![Here](shelf_advschemes_zerop1pa.jpeg)](https://www.youtube.com/watch?v=NW_Qem0l8EY)
+One of the reasons we use idealized modeling is to build intuition. In the real ocean, many mixing processes occur simultaneously over many orders of magnitude in space and time. An idealized model allows us to perturb individual processes like how fast the wind blows over the ocean surface while keeping everything else constant. Here, we use an idealized coastal ocean model that develops a *submesoscale* eddy field to investigate how numerical mixing impacts the larger scale flow and salinity field.
 
-  TEF was originally developed by Parker MacCready for looking at tracer fluxes and mixing for estuaries. TEF involves taking a control volume or transect, and binning corresponding tracer fluxes in a coordinate of your choosing. In the Gulf, the salinity is the primary tracer that controls the density structure close to the plume but temperature can become important when river input is low. The figure shown above is a temperature-salinity (TS) diagram of the total volume flux, salt flux, and salinity anomaly squared into and out of the nested grid integrated over the entire simulation. It is normalized by its maximum value so you can clearly see how complex the flow structure is if you don't average it. Note that the salinity anomaly squared flux spans a much larger salinity range because we remove the effects of the mean salinity to quantify the salinity anomaly. In the future we also plan to look at mixing in both salinity and temperature space!
-</details>
+The term submesoscale refers to ocean processes spanning approximately 100 m - 10 km in space, although they are better defined by their dynamical characteristics. Manifesting primarily as fronts, filaments, and eddies, submesoscales have $$\mathcal{O}(1)$$ Rossby numbers. A flow's Rossby number represents the ratio of the inertial force to the Coriolis force. Mathematically, this can be represented as $$Ro=U/fL \sim \zeta/f$$, where $$U$$ is a characteristic velocity scale, $$f$$ is the Coriolis parameter, and $$L$$ is a characteristic length scale. This is approximately equal to the relative vorticity $$\zeta/f$$.
 
-<details>
-  <summary> <font size="+2" > Copano Bay salinity dynamics </font>  </summary>
-  <img src = "../_pages/Copano.png" alt="Copano"> <br>
+The video show the development of the eddy field after several days. An oscillatory along-shore wind stress is applied to energize the fronts and increase the numerical mixing. Each column shows a numerical simulation with a different tracer advection scheme. These are just different numerical methods for solving the tracer conservation equation in ROMS. By the end of the video, the larger scale salinity field is generally the same between schemes. However, we can see that MPDATA has the most small-scale structure within the anticyclones but HSIMT has smoother fronts.
 
-  As an REU student, I worked on characterizing the salinity structure of Copano Bay, an inverse estuary on the Gulf Coast. The inverse circulation causes some interesting dynamics to occur. For example, plotting the normalized salinity difference versus the salinity gradient at the estuary mouth reveals just how weird the salinity structure is. this project is currently being worked on by <a href="Tianxiang Gao](https://ocean.tamu.edu/people/profiles/students/gaotianxiang.html">Tianxiang Gao</a>
-</details>
-<details>
-  <summary> <font size="+2" > Storm surge in estuaries </font>  </summary>
+### Storm surge in estuaries
   <img src = "../_pages/sss_combined.png" alt="surge"> <br>
-During my undergrad, I worked on the Sensing Storm Surge Project, which investigated storm surge in several Maine estuaries. I helped set up and maintain the citizen science network. The first picture is me prepping a mooring in Bass Harbor. The next figure is taken from our Ocean and Coastal Management publication that shows observed surge in two estuaries, which demonstrates the effects of channel convergence on surge height.
-</details>
-<!-- <details>
-<summary> <font size="+3" > Quantifying numerical mixing the in the TXLA model </font>  </summary>
-  <!-- <img src = "../_pages/model_domain.jpg" alt="domain"> -->
-
-  <!-- Numerical mixing is the mixing generated by the discretization of advection schemes. We aim to quantify the numerical mixing in the TXLA model because it can be bigger than the physical (real) mixing resolved by the model. In the figure above,  the black box indicates the location of a two-way nested grid that has five times the native resolution of the model. Our goal is to compare mixing between the native grid and high resolution child grid using tracer variance budgets. Preliminary results suggest that numerical mixing is approximately halved for the child grid relative to the parent due to newly resolved processes.  
-</details> -->
+During my undergrad, I worked on the Sensing Storm Surge Project, which investigated storm surge in several Maine estuaries. I helped set up and maintain the citizen science network. The first picture is me prepping a mooring in Bass Harbor. The figure to the right is modified from Spicer et al. (2021), our Ocean and Coastal Management publication that shows observed surge in two estuaries. The figure demonstrates the effects of channel convergence on surge height.
