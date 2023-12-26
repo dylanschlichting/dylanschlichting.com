@@ -1,4 +1,4 @@
-title: Dylan R. Schlichting B.S. # the website title (if blank, full name will be used instead)
+title: Dylan R. Schlichting # the website title (if blank, full name will be used instead)
 first_name: Dylan
 middle_name: R.
 last_name: Schlichting
@@ -138,7 +138,7 @@ plugins:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:  false
+enable_google_analytics:  true
 enable_mansory:           true
 enable_math:              true
 enable_tooltips:          false

@@ -21,6 +21,14 @@
   max-width: $max-content-width;
 }
 
+// Cover
+
+.cover {
+  img {
+    width: 100%;
+  }
+}
+
 // Profile
 .profile {
   img {

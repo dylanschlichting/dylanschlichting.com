@@ -34,6 +34,22 @@ a, table.table a {
 
 // Profile
 
+.cover {
+  margin-left: 1rem;
+  width: 100%;
+
+  .address {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: monospace;
+    font-size: 1.0rem;
+    p {
+      display: inline-block;
+      margin: 0;
+    }
+  }
+}
+
 .profile {
   margin-left: 1rem;
   width: 100%;
@@ -42,7 +58,7 @@ a, table.table a {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     p {
       display: inline-block;
       margin: 0;

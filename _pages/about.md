@@ -1,32 +1,38 @@
 ---
 layout: about
-title: Home
+title: Dylan R. Schlichting
 permalink: /
-description: #<a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_NM.jpg
   address: >
-    <p>618 Eller O&M Building</p>
-    <p>400 Bizzell St</p>
-    <p>College Station, TX 77840</p>
-
+    <p>TA-03 200, Los Alamos National Laboratory</p>
+    <p>Los Alamos, NM 87545</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD candidate in the [Oceanography](https://ocean.tamu.edu/) Department at Texas A&M University that works with [Dr. Rob Hetland](https://hetland.github.io/publications/). I analyze idealized and realistic numerical simulations of the Texas-Louisiana shelf, located in the northern Gulf of Mexico. My research interests broadly encompass mixing processes and exchange throughout the estuary-river plume continuum, occasionally including the continental slope and the deep ocean. PDFs and links for all of my publications can be found below. Also, I'm looking to start as a postdoc in Fall 2024, ideally focusing on mixing in estuaries and river plumes!
+<!-- <img src="../_pages/los_alamos_overlook.jpg" style="position:relative; top:20px"> alt="lanl_scenic"> -->
 
-I received my bachelor's degree in civil engineering from the University of Maine in December 2019. My journey into physical oceanography started in May 2017 when Drs. [Kimberly Huguenard](https://civil.umaine.edu/faculty/kimberly-huguenard/) and [Brandon Lieberthal](https://scholar.google.com/citations?user=Hi7W6iMAAAAJ&hl=en) hired me as a research assistant at the end of my first year. We worked on several observational and modeling-based coastal engineering projects, including: 1) Sensing storm surge ([website link](http://sensingstormsurge.acg.maine.edu/)), which established a citizen science program in several Maine estuaries, rivers, and harbors, 2) Quantifying the environmental impact of coastal armoring structures on beach profiles in Saco Bay, ME, 3) Testing the feasibility of suspended kelp farms as a solution to coastal erosion with analytical modeling, and 4) Quantifying the hydrodynamic impact of floating oyster farms in a wave tank.
+I am a PhD candidate in the [Oceanography](https://ocean.tamu.edu/) Department at Texas A&M University advised by [Dr. Rob Hetland](https://hetland.github.io/publications/). Currently, I am a Department of Energy [SCGSR](https://science.osti.gov/wdts/scgsr) fellow at Los Alamos National Laboratory (LANL) that works with Drs. [Mark Petersen](https://mark-petersen.github.io/home/) and [Katherine Smith](https://www.linkedin.com/in/katherine-smith-6155bbb6/). My research interests broadly encompass mixing processes and exchange within the estuary-river plume continuum. My dissertation work at TAMU focuses on characterizing "spurious", or numerically induced mixing, in idealized and realistic numerical simulations of the Texas-Louisiana (TXLA) shelf, located in the northern Gulf of Mexico. My work at LANL is a complete change of pace and seeks to assess the capabilities of the DOE's global ocean model [MPAS-O](https://mpas-dev.github.io/) in representing coastal processes, using the TXLA shelf as a case study.
 
-During my second year, I was fortunate enough to be accepted into TAMU's "Observing the Ocean" Research Experience for Undergraduates (REU) program, which is funded by the National Science Foundation. That summer, I met Dr. Hetland and gained experience working with ROMS model output of Copano Bay, a shallow, unsteady estuary along the Texas coast. Within the first few weeks I made a critical realization -- I was going to be a physical oceanographer, not an engineer. I was more drawn to questions like "Why is the salinity structure in this estuary so difficult to get right with a model?" rather than "How much faster will a new coastal armoring structure erode the beach?". However, for many estuaries and coastal regions, these types of questions are inextricably linked.
+I'm looking to start a postdoctoral position in September 2024!
+
+I received my bachelor's degree in civil engineering from the University of Maine in December 2019. My journey into physical oceanography started in May 2017 when Drs. [Kimberly Huguenard](https://civil.umaine.edu/faculty/kimberly-huguenard/) and [Brandon Lieberthal](https://scholar.google.com/citations?user=Hi7W6iMAAAAJ&hl=en) hired me as a research assistant at the end of my first year. We worked on several observational and modeling-based coastal engineering projects, including: 1) [Sensing storm surge](http://sensingstormsurge.acg.maine.edu/), which established a citizen science program in several Maine estuaries, rivers, and harbors, 2) Quantifying the environmental impact of coastal armoring structures on beach profiles in Saco Bay, ME, 3) Testing the feasibility of suspended kelp farms as a solution to coastal erosion with analytical modeling, and 4) Quantifying the hydrodynamic impact of floating oyster farms in a wave tank.
+
+During my second year, I was fortunate enough to be accepted into TAMU's "Observing the Ocean" Research Experience for Undergraduates (REU) program, which is funded by the National Science Foundation. That summer, I met Dr. Hetland and gained experience working with ROMS model output of Copano Bay, a shallow, unsteady estuary on the Texas coast. Within the first few weeks I made a critical realization -- I was going to be a physical oceanographer, not an engineer. I was more drawn to questions like "Why is the salinity structure in this estuary so difficult to get right with a model?" rather than "How much faster will a new coastal armoring structure erode the beach?". However, for many estuaries and coastal regions, these types of questions are inextricably linked.
 
 My REU studies heavily influenced the types of questions I found myself chasing at the start of my PhD. It also led to a coauthored paper in *JPO* that focuses on developing simple approximations to estuarine mixing using the idea of mixing pathways, which is the mixing a water mass experiences during its flow pathway.
 
-I started my PhD in Jan. 2020, just before the Covid-19 pandemic began. I'm part of the NSF-NERC [SUNRISE](https://sunrise-nsf.github.io/) project, which seeks to understand the interactions between near-inertial motions, submesoscale proceses, and their local impacts on turbulent (physical) mixing. My PhD dissertation focuses on characterizing a type of spurious (i.e., numerically induced) mixing in a nested ocean model of the Texas-Louisiana shelf. Numerical models are powerful tools for studying ocean mixing, however they are prone to numerical issues because they represent physical processes with discrete approximations. Numerical mixing is one such error; the process by which the discretized transport of tracers by currents (Holmes et al. 2021 *JAMES*) results in spurious mixing. Numerical mixing can introduce biases in numerical models and cause it to drift away from reality. This is different than what modelers often call physical mixing. That is, the mixing prescribed by a model's turbulence closure scheme, which is based on physical conservation laws. We have a paper that quantifies numerical mixing in the TXLA model in *JAMES*, which is the first chapter of my dissertation.
+I started my PhD in Jan. 2020, just before the Covid-19 pandemic began. I'm part of the NSF-NERC [SUNRISE](https://sunrise-nsf.github.io/) project, which seeks to understand the interactions between near-inertial motions, submesoscale proceses, and their local impacts on turbulent (physical) mixing. My PhD dissertation focuses on characterizing a type of spurious (i.e., numerically induced) mixing in a nested ocean model of the Texas-Louisiana shelf. Numerical models are powerful tools for studying ocean mixing, however they are prone to numerical issues because they represent physical processes with discrete approximations. Numerical mixing is one such error; the process by which the discretized transport of tracers by currents (Holmes et al. 2021 *JAMES*) results in spurious mixing. Numerical mixing can introduce biases in numerical models and cause it to drift away from reality. This is different than what modelers often call physical mixing. That is, the mixing prescribed by a model's turbulence closure scheme, which is based on physical conservation laws. We have a paper that quantifies numerical mixing in the TXLA model in *JAMES*, which is the first chapter of my dissertation. The second chapter, which is in preparation, seeks to understand the larger-scale impacts of that mixing on the quality of simulated solution.
+
+My current work at LANL is much more applied. The research question can be summarized as: "Can a global ocean model with a regionally refined mesh represent coastal ocean processes with similar fidelity to regional-scale models?" This work is important because coastal oceans and thus coastal communities will be adversely affected by climate change. However, coastal processes are poorly represented in climate models because they occur at scales of motion that are smaller than most climate models can resolve. Climate models require exceptional computational resources and enormous amounts of storage that the best supercomputers in the world still struggle with. A standard laptop has around 4-16 cores and a 1TB internal hard drive. Climate models that don't even resolve coastal processes can require thousands of cores produce Petabytes ($$\mathcal{O}$$(1000 TB)) of output.
+
+My project essentially stress-tests the DOE's global ocean model [MPAS-O](https://mpas-dev.github.io/) by turning up the resolution over the TXLA shelf. The idea is to compare it with regional-scale models like [ROMS](https://www.myroms.org/), which are run at much higher resolution but for smaller domains. ROMS is designed to simulate these types of processes, MPAS-O is not. The results of this project can be used to improve climate models and thus are ability to understand the ocean's complex relationship with climate and weather.
 
 Here is a link to my <a href='/_pages/CV.pdf' class='image fit'> CV</a>.
 
@@ -54,3 +60,6 @@ of Advances in Modeling Earth Systems*, 15, e2022MS003380. [https://doi.org/10.1
 
 1. Spicer, P., **Schlichting, D.**, Huguenard, K., Roche, A., and Rickard, L. (2021). Sensing Storm Surge: A framework for establishing a citizen scientist monitored water level network. *Ocean and Coastal Management*, 211, 105802. [https://doi.org/10.1016/j.ocecoaman.2021.105802](https://doi.org/10.1016/j.ocecoaman.2021.105802).
 {: reversed="reversed"}
+
+#### Personal Interests
+Outside of work, I enjoy hiking, running, and strength training. Since I moved to New Mexico, I spend most of my free time outdoors. See the [photo gallery](/gallery/) page for some pictures I've accumulated over the years.
