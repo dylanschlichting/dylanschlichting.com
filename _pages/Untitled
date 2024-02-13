@@ -1,0 +1,9 @@
+
+
+ffmpeg -i txla_mnum_surf_2010_jun_july.mp4 \
+  -vf scale=3840x2160:flags=lanczos \
+  -c:v libx264 \
+  -crf 13 \
+  -c:a aac -b:a 512k \
+  -preset slow \
+  txla_mnum_surf_2010_jun_july_4k.mp4

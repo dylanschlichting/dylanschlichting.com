@@ -16,8 +16,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-<!-- <img src="../_pages/los_alamos_overlook.jpg" style="position:relative; top:20px"> alt="lanl_scenic"> -->
-
 I am a PhD candidate in the [Oceanography](https://ocean.tamu.edu/) Department at Texas A&M University advised by [Dr. Rob Hetland](https://hetland.github.io/publications/). Currently, I am a Department of Energy [SCGSR](https://science.osti.gov/wdts/scgsr) fellow at Los Alamos National Laboratory (LANL) that works with Drs. [Mark Petersen](https://mark-petersen.github.io/home/) and [Katherine Smith](https://www.linkedin.com/in/katherine-smith-6155bbb6/). My research interests broadly encompass mixing processes and exchange within the estuary-river plume continuum. My dissertation work at TAMU focuses on characterizing "spurious", or numerically induced mixing, in idealized and realistic numerical simulations of the Texas-Louisiana (TXLA) shelf, located in the northern Gulf of Mexico. My work at LANL is a complete change of pace and seeks to assess the capabilities of the DOE's global ocean model [MPAS-O](https://mpas-dev.github.io/) in representing coastal processes, using the TXLA shelf as a case study.
 
 I'm looking to start a postdoctoral position in September 2024!
