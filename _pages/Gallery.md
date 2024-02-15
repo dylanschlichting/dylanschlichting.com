@@ -36,19 +36,10 @@ nav: true
 <img style="display: block; margin: 0 auto;" src="../_pages/barranca.jpg" width="400">
 <p style="text-align: center;">Scenic overlook at Barranca Mesa. Photo taken by Dylan Schlichting on Dec 10, 2023.</p>
 
-<img style="display: block; margin: 0 auto;" src="../_pages/guaje_summit.jpg" width="400">
-<p style="text-align: center;">View from Guaje Mountain summit. Photo taken by Dylan Schlichting on Dec 24, 2023.</p>
-
-<img style="display: block; margin: 0 auto;" src="../_pages/guaje_overlook.jpg" width="400">
-<p style="text-align: center;">Overlooking the Guaje Mountain burn scar Photo taken by Dylan Schlichting on Dec 24, 2023.</p>
-
 ## Maine
 #### Baxter State Park <a name="Baxter State Park"></a>
 <img style="display: block; margin: 0 auto;" src="../_pages/katahdin_summit.jpg" width="400">
 <p style="text-align: center;"> From the summit of Baxter Peak. Photo taken by Dylan Schlichting, on June 15, 2022.</p>
-
-<img style="display: block; margin: 0 auto;" src="../_pages/katahdin_stream.jpg" width="400">
-<p style="text-align: center;">Overlooking Katahdin Stream from Hunt trail. Photo taken by Dylan Schlichting, on June 15, 2022.</p>
 
 ## Oregon
 #### Smith Rock State Park <a name="Smith Rock State Park"></a>
