@@ -5,7 +5,7 @@ permalink: /projects/
 description:
 nav: true
 ---
-For most of my PhD, I've used Regional Ocean Modeling System ([ROMS](https://www.myroms.org/)) configured as part of the Coupled-Ocean-Atmosphere-Wave-Sediment Transport model ([COAWST](https://www.usgs.gov/centers/whcmsc/science/coawst-a-coupled-ocean-atmosphere-wave-sediment-transport-modeling-system)) to make numerical simulations river plumes and the the coastal ocean. ROMS has been a primary tool for the estuarine and coastal modeling community since the 1990s. Check out some of my projects below. Since I started at LANL, I've been learning to use MPAS-O and E3SM. I'll be posting an update on that when we have more simulations complete. The first two project images are linked to youtube videos! 
+For most of my PhD, I've used Regional Ocean Modeling System ([ROMS](https://www.myroms.org/)) configured as part of the Coupled-Ocean-Atmosphere-Wave-Sediment Transport model ([COAWST](https://www.usgs.gov/centers/whcmsc/science/coawst-a-coupled-ocean-atmosphere-wave-sediment-transport-modeling-system)) to make numerical simulations of river plumes and the coastal ocean. ROMS has been a primary tool for the estuarine and coastal modeling community since the 1990s. Check out some of my projects below. Since I started at LANL, I've been learning to use MPAS-O and E3SM. I'll be posting an update on that when we have more simulations complete. The first two project images are linked to youtube videos! 
 
 ### High-resolution modeling of the Texas-Louisiana shelf
 [![Here](txla_mnum_surf_1011.jpg)](https://www.youtube.com/watch?v=ZLfN9I5l6tw)
