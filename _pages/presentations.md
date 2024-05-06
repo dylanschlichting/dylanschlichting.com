@@ -5,6 +5,8 @@ title: presentations
 description:
 nav: true
 ---
+12. **Schlichting, D.** (2024). Numerical and physical mixing in simulations of submesoscale baroclinic instabilities over sloping bathymetry. Dissertation defense, College Station, TX, May 2. *Talk*.
+
 11. **Schlichting, D.** , Hetland, R., & Jones, S. (2024). Numerical mixing suppresses submesoscale baroclinic instabilities over sloping bathymetry. Ocean Sciences Meeting, February 18-23. Poster. <a href='/_pages/OSM_2024_Poster.pdf' class='image fit'> Download PDF</a>
 
 10. **Schlichting, D.** & Hetland, R. (2023). Numerical mixing in idealized simulations of submesoscale baroclinic instabilities over a shelf. Gordon Research Seminar/Conference on Coastal Ocean Dynamics, June 17-23. Poster. <a href='/_pages/GRC_2023_Poster.pdf' class='image fit'> Download PDF</a>

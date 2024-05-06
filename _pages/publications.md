@@ -5,6 +5,8 @@ title: publications
 description:
 nav: true
 ---
+4. **Schlichting, D.**, Hetland, R., \& Jones, S. Numerical mixing suppresses submesoscale baroclinic instabilities over sloping bathymetry. *Journal of Advances in Modeling Earth Systems*. In-revision.
+
 3. **Schlichting, D.**, Qu, L., Kobashi, D, and Hetland, R. D. (2023). Quantification of physical
 and numerical mixing in a coastal ocean model using salinity variance budgets. *Journal
 of Advances in Modeling Earth Systems*, 15, e2022MS003380. [https://doi.org/10.1029/2022MS003380](https://doi.org/10.1029/2022MS003380).
