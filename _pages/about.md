@@ -26,11 +26,7 @@ During my second year, I was fortunate to be accepted into TAMU's "Observing the
 
 My REU studies heavily influenced the types of questions I found myself chasing at the start of my PhD. It also led to a coauthored paper in *JPO* that focuses on developing simple approximations to estuarine mixing using the idea of mixing pathways, which is the mixing a water mass experiences during its flow pathway.
 
-<<<<<<< Updated upstream
-I started my PhD in Jan. 2020, just before the Covid-19 pandemic began. I'm part of the NSF-NERC [SUNRISE](https://sunrise-nsf.github.io/) project, which seeks to understand the interactions between near-inertial motions, submesoscale proceses, and their local impacts on turbulent (physical) mixing. Numerical models are powerful tools for studying ocean mixing, however, they are prone to numerical issues because they represent physical processes with discrete approximations. Numerical mixing is one such error; the process by which the discretized transport of tracers by currents (Holmes et al. 2021 *JAMES*) results in spurious mixing. Numerical mixing can introduce biases in numerical models and cause them to drift away from reality. This is different than what modelers often call physical mixing. That is, the mixing prescribed based on physical conservation laws. We have a paper that quantifies numerical mixing in the TXLA model in *JAMES*, which is the first chapter of my dissertation. The second chapter, which we submitted recently to *JAMES*, seeks to understand the larger-scale impacts of that mixing on the quality of simulated solution.
-=======
 I started my PhD in Jan. 2020, just before the Covid-19 pandemic began. I'm part of the NSF-NERC [SUNRISE](https://sunrise-nsf.github.io/) project, which seeks to understand the interactions between near-inertial motions, submesoscale proceses, and their local impacts on turbulent (physical) mixing. Numerical models are powerful tools for studying ocean mixing, however, they are prone to numerical issues because they represent physical processes with discrete approximations. Numerical mixing is one such error; the process by which the discretized transport of tracers by currents results in spurious mixing. Numerical mixing can introduce biases in numerical models and cause them to drift away from reality. This is different than what modelers often call physical mixing. That is, the mixing based on physical conservation laws. We have a paper that quantifies numerical mixing in the TXLA model in *JAMES*, which is the first chapter of my dissertation. The second chapter used the lessons learned from this first paper to better understand the impacts of that mixing on the larger-scale ocean circulation and tracer state.  
->>>>>>> Stashed changes
 
 My work at LANL is much more applied. The research question can be summarized as: "Can a global ocean model with a regionally refined mesh represent coastal ocean processes with similar fidelity to regional-scale models?" This work is important because coastal communities are and will continue to be adversely affected by climate change. However, coastal processes are poorly represented in climate models because they occur at scales of motion that are smaller than most climate models can resolve. Climate models require awesome computational resources. A standard laptop has around 4-16 cores and a 1TB internal hard drive. Climate models that don't even resolve coastal processes often require thousands of cores to run and are capable of producing Petabytes ($$\mathcal{O}$$(1000 TB)) of output.
 
@@ -54,13 +50,10 @@ Here is a link to my <a href='/_pages/CV.pdf' class='image fit'> CV</a>.
 
 #### Publications
 ---
-<<<<<<< Updated upstream
-4. **Schlichting, D.**, Hetland, R.D, and Jones, S (2024). Numerical mixing suppresses submesoscale baroclinic instabilities over sloping bathymetry. *Journal of Advances in Modeling Earth Systems*. Submitted.
-  
-=======
+5. Wei Hsu, F., **Schlichting, D.**, Shearman, R.K., Nash, J.D., Kobashi, D., Hetland, R.D. Near-Resonance between Shelf Ocean and Semidiurnal Atmospheric Tidal Wind. *Journal of Physical Oceanography*. Submitted.
+
 4. **Schlichting, D.**, Hetland, R., \& Jones, S. Numerical mixing suppresses submesoscale baroclinic instabilities over sloping bathymetry. *Journal of Advances in Modeling Earth Systems*. In-revision.
 
->>>>>>> Stashed changes
 3. **Schlichting, D.**, Qu, L., Kobashi, D, and Hetland, R. D. (2023). Quantification of physical
 and numerical mixing in a coastal ocean model using salinity variance budgets. *Journal
 of Advances in Modeling Earth Systems*, 15, e2022MS003380. [https://doi.org/10.1029/2022MS003380](https://doi.org/10.1029/2022MS003380).
