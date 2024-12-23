@@ -20,7 +20,7 @@ Welcome! I'm a postdoc at Los Alamos National Laboratory (LANL) in the Fluid Dyn
 
 I finished my PhD in the Oceanography Department at Texas A&M University under Dr. Hetland in Summer 2024. My research at TAMU focused on characterizing mixing processes within the estuary-river plume continuum. I spent several years thinking about *numerical mixing*, a type of spurious mixing that arises in ocean models as a consequence of representing the bulk transport of tracers by currents with discrete approximations. We looked at numerical mixing in idealized and realistic numerical simulations of the Texas-Louisiana (TXLA) shelf in the northern Gulf of Mexico. As part of my postdoc, we are currently implementing a new algorithm for quantifying numerical mixing in the Model for Prediction Across Scales-Ocean, the ocean component of E3SM. We are currently seeking two upper-level undergraduate or graduate students for the 2024 summer [LANL parallel computing workshop](https://www.lanl.gov/engage/organizations/xcp/parallel-computing-summer-research-internship).
 
-Here is a link to my <a href='/_pages/CV.pdf' class='image fit'> CV</a>.
+Here is a link to my <a href='/_pages/CV_2024_Dec.pdf' class='image fit'> CV</a>.
 
 #### Research Interests
 ---
